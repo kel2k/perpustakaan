@@ -2,32 +2,62 @@
 namespace App\Models;
 
 use CodeIgniter\Model;
+use Intervention\Image\ImageManagerStatic as Image;
 
 class M_model extends Model
 {
-    protected $table      = 'book';
-	protected $primaryKey = 'id_book';
-	protected $allowedFields = ['nama_b','cover', 'penulis', 'penerbit', 'tahun', 'sipnopsis','stok','link','kategori','created_at'];
+    protected $table = 'book';
+    protected $primaryKey = 'id_book';
+    protected $allowedFields = ['nama_b', 'cover', 'penulis', 'penerbit', 'tahun', 'sinopsis', 'stok', 'link', 'kategori', 'created_at'];
 
-    public function getBookById($id) {
+    public function getBookById($id)
+    {
         return $this->join('kategori', 'kategori.id_kategori = book.kategori')
-                    ->where('id_book', $id)
-                    ->first();
+            ->where('id_book', $id)
+            ->first();
     }
+    public function getById($id)
+    {
+        $data = $this->find($id);
+        if (!$data) {
+            throw new \Exception('Data not found');
+        }
+        return $data;
+    }
+
     public function insertt($data, $photo)
     {
         if ($photo && $photo->isValid()) {
             $imageName = $photo->getRandomName();
             $photo->move(ROOTPATH . 'public/images', $imageName);
+
+            // Gunakan Intervention Image untuk mengubah ukuran gambar
+            $img = Image::make(ROOTPATH . 'public/images/' . $imageName);
+            $img->resize(231, 370);
+            $img->save(ROOTPATH . 'public/images/' . $imageName);
+
             $data['cover'] = $imageName;
         } else {
-            $data['cover'] = 'default.png'; 
+            $data['cover'] = 'default.png';
         }
-    
+
         // Tambahkan created_at dengan waktu sekarang
         $data['created_at'] = date('Y-m-d H:i:s');
-    
+
         return $this->insert($data);
+    }
+    public function updateP($id, $data, $photo)
+    {
+        $findd = $this->find($id);
+        $currentImage = $findd['cover'];
+        if ($photo != null) {
+            $newImageName = $photo->getRandomName();
+            $photo->move(ROOTPATH . 'public/images', $newImageName);
+            $data['cover'] = $newImageName;
+        } else {
+            $data['cover'] = $currentImage;
+        }
+        return $this->update($id, $data);
     }
     public function tampil($table)
     {
@@ -58,7 +88,10 @@ class M_model extends Model
     {
         return $this->db->table($table)->update($data, $where);
     }
-
+    public function getpeminjamanById($id_peminjaman)
+    {
+        return $this->db->table('peminjaman')->where('id_peminjaman', $id_peminjaman)->get()->getRow();
+    }
     public function join2($table1, $table2, $on)
     {
         return $this->db->table($table1)->join($table2, $on, 'left')->get()->getResult();

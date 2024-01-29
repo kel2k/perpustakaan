@@ -6,6 +6,7 @@ use App\Models\M_model;
 use Dompdf\Dompdf;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+use Intervention\Image\ImageManagerStatic as Image;
 
 class Home extends BaseController
 {
@@ -92,8 +93,8 @@ class Home extends BaseController
     {
         // if (session()->get('level') == 1) {
         $model = new M_model();
-        $on='book.kategori=kategori.id_kategori';
-        $data['a']=$model->join2('book', 'kategori', $on);
+        $on = 'book.kategori=kategori.id_kategori';
+        $data['a'] = $model->join2('book', 'kategori', $on);
         echo view('header');
         echo view('menu');
         echo view('tabel_buku', $data);
@@ -111,41 +112,214 @@ class Home extends BaseController
         echo view('footer');
     }
     public function aksi_tambahbuku()
-{
-            if(session()->get('level')==1||  session()->get('level')==2){
-            $Model= new M_model();
+    {
+        if (session()->get('level') == 1 || session()->get('level') == 2) {
+            $Model = new M_model();
             $data = $this->request->getPost();
             $photo = $this->request->getFile('cover');
             $Model->insertt($data, $photo);
-        return redirect()->to('/home/buku/');
-    }else{
-        return redirect()->to('Login');
+            return redirect()->to('/home/buku/');
+        } else {
+            return redirect()->to('Login');
+        }
     }
-}
-public function tambahbuku() {
-        
-    $model = new M_model();
-    if (session()->get('level') == 1 ||  session()->get('level')==2) {
-        $data['a'] = $model->tampil('kategori');
-    } else {
-        return redirect()->to('Login');
-    }
-    $data['title'] = 'Tambah Buku';
-    echo view('header');
+
+    public function tambahbuku()
+    {
+
+        $model = new M_model();
+        if (session()->get('level') == 1 || session()->get('level') == 2) {
+            $data['a'] = $model->tampil('kategori');
+        } else {
+            return redirect()->to('Login');
+        }
+        $data['title'] = 'Tambah Buku';
+        echo view('header');
         echo view('menu');
         echo view('add_buku', $data);
         echo view('footer');
     }
-    public function staf()
+    public function kategori()
     {
-        // if (session()->get('level') == 1) {
+        //    if(session()->get('level')== 1) {
         $model = new M_model();
-        $on = 'staf.user_id=user.id_user';
-        $data['vstaf'] = $model->join2('staf', 'user', $on);
+        $data['vstaf'] = $model->tampil('kategori');
+        // $data['title'] = 'Data Kategori';
+
         echo view('header');
         echo view('menu');
-        echo view('tabel_staf', $data);
+        echo view('tabel_kategori', $data);
         echo view('footer');
+        // }else {
+        //     return redirect()->to('login');
+        // }
+    }
+    public function tambahkategori()
+    {
+
+        $model = new M_model();
+        if (session()->get('level') == 1) {
+
+
+            $data['title'] = 'Tambah Kategori';
+            echo view('header');
+            echo view('menu');
+            echo view('add_kategori', $data);
+            echo view('footer');
+        }
+
+    }
+    public function editkategori($id)
+    {
+
+        $model = new M_model();
+        $where = array('id_kategori' => $id);
+        $data['a'] = $model->getWhere('kategori', $where);
+        // $data['title'] = 'Data Kategori';
+        echo view('header');
+        echo view('menu');
+        echo view('edit_kategori', $data);
+        echo view('footer');
+
+    }
+    public function aksi_editkategori()
+    {
+        $id = $this->request->getPost('id');  // Terima nilai $id dari formulir
+
+        // Dapatkan nilai nama_k dari formulir
+        $nama_k = $this->request->getPost('nama_k');
+
+        // Tentukan kondisi WHERE
+        $where = ['id_kategori' => $id];
+
+        // Data yang akan diupdate
+        $data = ['nama_k' => $nama_k];
+
+        // Panggil model untuk melakukan pembaruan
+        $model = new M_model();
+        $model->qedit('kategori', $data, $where);
+
+        // Redirect ke halaman kategori setelah pembaruan
+        return redirect()->to('/home/kategori');
+    }
+    public function deletekategori($id)
+    {
+        if (session()->get('level') == 1) {
+            $model = new M_model();
+            $where = array('id_kategori' => $id);
+            $model->hapus('kategori', $where);
+            return redirect()->to('/home/kategori');
+        } else {
+            return redirect()->to('login');
+        }
+    }
+    public function deletepeminjaman($id)
+    {
+        if (session()->get('level') == 1) {
+            $model = new M_model();
+            $where = array('id_peminjaman' => $id);
+            $model->hapus('peminjaman', $where);
+            return redirect()->to('/home/peminjaman');
+        } else {
+            return redirect()->to('login');
+        }
+    }
+    public function peminjaman()
+    {
+        if (session()->get('level') == 1) {
+            $model = new M_model();
+            $on = 'peminjaman.id_book = book.id_book';
+            $on2 = 'peminjaman.id_user = user.id_user';
+            $data['vstaf'] = $model->join3('peminjaman', 'book', 'user', $on, $on2);
+
+            // $data['title'] = 'Data Peminjaman';
+
+            echo view('header');
+            echo view('menu');
+            echo view('tabel_peminjaman', $data);
+            echo view('footer');
+        } else {
+            return redirect()->to('login');
+        }
+    }
+    public function aksipinjam($id_peminjaman)
+    {
+        $model = new M_model();
+        $peminjaman = $model->getpeminjamanById($id_peminjaman);
+        $newStatus = ($peminjaman->status === 'Dipinjam') ? 'Dikembalikan' : 'Dipinjam';
+        $data = array('status' => $newStatus);
+        $where = array('id_peminjaman' => $id_peminjaman);
+        $model->qedit('peminjaman', $data, $where);
+        return redirect()->to('/home/peminjaman');
+    }
+    public function hapuspeminjaman($id)
+    {
+        if (session()->get('level') == 1) {
+            $model = new M_model();
+            $where = array('id_peminjaman' => $id);
+            $model->hapus('peminjaman', $where);
+            return redirect()->to('/home/peminjaman');
+        } else {
+            return redirect()->to('login');
+        }
+    }
+    public function tambahpeminjaman()
+    {
+        if (session()->get('level') == 1) {
+            $model = new M_model();
+            $data['a'] = $model->tampil('user');
+            $data['c'] = $model->tampil('book');
+            echo view('header');
+            echo view('menu');
+            echo view('add_peminjaman', $data);
+            echo view('footer');
+        } else {
+            return redirect()->to('login');
+        }
+    }
+
+    public function aksi_addpeminjaman()
+    {
+        if (session()->get('level') == 1) {
+            $a = $this->request->getPost('user');
+            $b = $this->request->getPost('book');
+            $c = $this->request->getPost('tgl_kembali');
+            $d = $this->request->getPost('jumlah');
+
+
+            //Yang ditambah ke user
+            $data1 = array(
+                'id_user' => $a,
+                'id_book' => $b,
+                'tgl_kembali' => $c,
+                'jumlah' => $d,
+                'tgl_pinjam' => date('Y-m-d'),
+                'status' => 'Dipinjam'
+            );
+            $model = new M_model();
+            $model->simpan('peminjaman', $data1);
+
+            return redirect()->to('/home/peminjaman');
+        } else {
+            return redirect()->to('login');
+        }
+    }
+    public function aksi_addkategori()
+    {
+        if (session()->get('level') == 1) {
+            $a = $this->request->getPost('nama_k');
+
+            $data1 = array(
+                'nama_k' => $a,
+                'created_at' => date('Y-m-d H:i:s')
+            );
+            $model = new M_model();
+            $model->simpan('kategori', $data1);
+
+            return redirect()->to('/home/kategori');
+        } else {
+            return redirect()->to('login');
+        }
     }
     public function reset($id)
     {
@@ -265,6 +439,16 @@ public function tambahbuku() {
         //     return redirect()->to('/home/dashboard');
         // }
     }
+    public function delete($id)
+    {
+        if (session()->get('level') == 1) {
+            $Model = new M_Model();
+            $Model->delete($id);
+            return redirect()->to('/home/buku/');
+        } else {
+            return redirect()->to('Login');
+        }
+    }
     public function aksi_editsiswa()
     {
         $model = new M_model();
@@ -293,6 +477,55 @@ public function tambahbuku() {
         $model->qedit('siswa', $data2, $where2);
         return redirect()->to('/home/siswa');
     }
+    public function editbuku($id)
+    {
+        $userLevel = session()->get('level');
+
+        if ($userLevel == 1) {
+            $model = new M_model();
+            $model2 = new M_model();
+            $data['a'] = $model->getById($id); // Mendapatkan data pengguna berdasarkan $id
+
+            if (!$data['a']) {
+                return redirect()->to('/home/buku');
+            }
+
+            if ($userLevel == 1) {
+                $data['kategori'] = $model2->tampil('kategori');
+            }
+
+            $data['title'] = 'Edit Buku';
+
+            echo view('header');
+            echo view('menu');
+            echo view('edit_buku', $data);
+            echo view('footer');
+        } else {
+            return redirect()->to('Login');
+        }
+    }
+    public function update($id)
+    {
+        // if (session()->get('level') == 1 || session()->get('level') == 2) {
+        $Model = new M_model();
+        $data = $this->request->getPost();
+        $photo = $this->request->getFile('cover');
+
+
+        if ($photo->isValid() && !$photo->hasMoved()) {
+
+            $Model->updateP($id, $data, $photo);
+        } else {
+
+            $Model->update($id, $data);
+        }
+
+        return redirect()->to('/home/buku');
+        // } else {
+        //     return redirect()->to('Login');
+        // }
+    }
+
     public function editstaf($id)
     {
         // if (session()->get('level') == 1) {

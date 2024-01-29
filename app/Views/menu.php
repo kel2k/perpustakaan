@@ -274,7 +274,8 @@
                         <ul aria-expanded="false">
                             <li><a href="/home/user">Tabel User</a></li>
                             <li><a href="/home/buku">Tabel Buku</a></li>
-                            <!-- <li><a href="staf">Tabel Staf</a></li> -->
+                            <li><a href="/home/kategori">Tabel Kategori</a></li>
+                            <li><a href="/home/peminjaman">Tabel Peminjaman</a></li>
                         </ul>
                     </li>
                     <!-- </ul>

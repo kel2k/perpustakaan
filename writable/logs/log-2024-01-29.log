@@ -558,3 +558,1293 @@ in APPPATH\Controllers\Home.php on line 116.
  3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\PC-7\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:23:41 --> Data not found
+in APPPATH\Models\M_Model.php on line 22.
+ 1 APPPATH\Controllers\Home.php(304): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:23:41 --> Data not found
+in APPPATH\Models\M_Model.php on line 22.
+ 1 APPPATH\Controllers\Home.php(304): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:23:41 --> Data not found
+in APPPATH\Models\M_Model.php on line 22.
+ 1 APPPATH\Controllers\Home.php(304): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:23:41 --> Data not found
+in APPPATH\Models\M_Model.php on line 22.
+ 1 APPPATH\Controllers\Home.php(304): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:32:57 --> Class 'App\Controllers\M_Molde' not found
+in APPPATH\Controllers\Home.php on line 272.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->delete('5')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:39:37 --> Call to undefined function App\Models\autoResizeImage()
+in APPPATH\Models\M_Model.php on line 34.
+ 1 APPPATH\Controllers\Home.php(120): App\Models\M_model->insertt([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_tambahbuku()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:41:13 --> Call to undefined function App\Models\get_instance()
+in APPPATH\Models\M_Model.php on line 53.
+ 1 APPPATH\Controllers\Home.php(122): App\Models\M_model->autoResizeImage('E:\\xampp\\tmp\\php8EEA.tmp', 'C:\\Users\\Administrator\\Desktop\\perpustakaan\\writable\\uploads/', 300, 300)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_tambahbuku()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:41:53 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+in APPPATH\Controllers\Home.php on line 136.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('home/tambahbuku', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('home/tambahbuku')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('home/tambahbuku')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:41:53 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+in APPPATH\Controllers\Home.php on line 136.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('home/buku', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('home/buku')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('home/buku')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:41:54 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+in APPPATH\Controllers\Home.php on line 136.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('home/buku', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('home/buku')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('home/buku')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:41:55 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+in APPPATH\Controllers\Home.php on line 136.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('home/buku', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('home/buku')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('home/buku')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:42:07 --> Call to undefined function App\Controllers\autoResizeImage()
+in APPPATH\Controllers\Home.php on line 124.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_tambahbuku()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:43:13 --> Call to a member function library() on null
+in APPPATH\Controllers\Home.php on line 142.
+ 1 APPPATH\Controllers\Home.php(122): App\Controllers\Home->autoResizeImage('E:\\xampp\\tmp\\php639C.tmp', 'C:\\Users\\Administrator\\Desktop\\perpustakaan\\writable\\uploads/', 300, 300)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_tambahbuku()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:44:11 --> Call to a member function library() on null
+in APPPATH\Controllers\Home.php on line 142.
+ 1 APPPATH\Controllers\Home.php(122): App\Controllers\Home->autoResizeImage('E:\\xampp\\tmp\\php46AA.tmp', 'C:\\Users\\Administrator\\Desktop\\perpustakaan\\writable\\uploads/', 300, 300)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_tambahbuku()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:44:17 --> Call to a member function library() on null
+in APPPATH\Controllers\Home.php on line 142.
+ 1 APPPATH\Controllers\Home.php(122): App\Controllers\Home->autoResizeImage('E:\\xampp\\tmp\\php5F44.tmp', 'C:\\Users\\Administrator\\Desktop\\perpustakaan\\writable\\uploads/', 300, 300)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_tambahbuku()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:46:15 --> Call to a member function library() on null
+in APPPATH\Controllers\Home.php on line 142.
+ 1 APPPATH\Controllers\Home.php(122): App\Controllers\Home->autoResizeImage('E:\\xampp\\tmp\\php2CA3.tmp', 'C:\\Users\\Administrator\\Desktop\\perpustakaan\\writable\\uploads/', 300, 300)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_tambahbuku()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:46:40 --> Call to undefined method App\Models\M_model::autoResizeImage
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Home.php(122): CodeIgniter\Model->__call('autoResizeImage', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_tambahbuku()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:48:37 --> Class 'App\Models\Image' not found
+in APPPATH\Models\M_Model.php on line 34.
+ 1 APPPATH\Controllers\Home.php(120): App\Models\M_model->insertt([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_tambahbuku()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:50:51 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:50:51 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:50:51 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:50:51 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:53:55 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:53:55 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:53:55 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:53:55 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:53:57 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:53:57 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:53:58 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:53:58 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:54:44 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:54:44 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:54:44 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:54:44 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:54:45 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:54:45 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:54:45 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:54:45 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:54:55 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:54:55 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:54:55 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:54:55 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:54:58 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:54:58 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:54:58 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:54:58 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:56:33 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:56:33 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:56:33 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 03:56:33 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 04:01:03 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 04:01:03 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 04:01:03 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 04:01:03 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 04:01:38 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 04:01:38 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 04:01:38 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 04:01:38 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 04:01:47 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 04:01:47 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 04:01:47 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 04:01:48 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 04:02:19 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 04:02:19 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 04:02:19 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 04:02:19 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:19:49 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:19:49 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:19:49 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:19:49 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(316): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:22:17 --> Invalid argument supplied for foreach()
+in APPPATH\Views\tabel_kategori.php on line 21.
+ 1 APPPATH\Views\tabel_kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\Users\\Administrator\\Desktop\\perpustakaan\\app\\Views\\tabel_kategori.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Administrator\\Desktop\\perpustakaan\\app\\Views\\tabel_kategori.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tabel_kategori', [], true)
+ 5 APPPATH\Controllers\Home.php(151): view('tabel_kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:22:23 --> Invalid argument supplied for foreach()
+in APPPATH\Views\tabel_kategori.php on line 21.
+ 1 APPPATH\Views\tabel_kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\Users\\Administrator\\Desktop\\perpustakaan\\app\\Views\\tabel_kategori.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Administrator\\Desktop\\perpustakaan\\app\\Views\\tabel_kategori.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tabel_kategori', [], true)
+ 5 APPPATH\Controllers\Home.php(151): view('tabel_kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:22:24 --> Invalid argument supplied for foreach()
+in APPPATH\Views\tabel_kategori.php on line 21.
+ 1 APPPATH\Views\tabel_kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\Users\\Administrator\\Desktop\\perpustakaan\\app\\Views\\tabel_kategori.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Administrator\\Desktop\\perpustakaan\\app\\Views\\tabel_kategori.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tabel_kategori', [], true)
+ 5 APPPATH\Controllers\Home.php(151): view('tabel_kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:31:20 --> Invalid file: "add_staf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_staf.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_staf', [], true)
+ 3 APPPATH\Controllers\Home.php(223): view('add_staf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->addstaf()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:32:31 --> Invalid argument supplied for foreach()
+in APPPATH\Views\tabel_kategori.php on line 22.
+ 1 APPPATH\Views\tabel_kategori.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\Users\\Administrator\\Desktop\\perpustakaan\\app\\Views\\tabel_kategori.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Administrator\\Desktop\\perpustakaan\\app\\Views\\tabel_kategori.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tabel_kategori', [], true)
+ 5 APPPATH\Controllers\Home.php(167): view('tabel_kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->tambahkategori()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:32:53 --> Invalid argument supplied for foreach()
+in APPPATH\Views\tabel_kategori.php on line 22.
+ 1 APPPATH\Views\tabel_kategori.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\Users\\Administrator\\Desktop\\perpustakaan\\app\\Views\\tabel_kategori.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Administrator\\Desktop\\perpustakaan\\app\\Views\\tabel_kategori.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tabel_kategori', [], true)
+ 5 APPPATH\Controllers\Home.php(167): view('tabel_kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->tambahkategori()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+ERROR - 2024-01-29 05:33:22 --> mysqli_sql_exception: Column 'nama_k' cannot be null in C:\Users\Administrator\Desktop\perpustakaan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Administrator\Desktop\perpustakaan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ka...', 0)
+#1 C:\Users\Administrator\Desktop\perpustakaan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 C:\Users\Administrator\Desktop\perpustakaan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 C:\Users\Administrator\Desktop\perpustakaan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 C:\Users\Administrator\Desktop\perpustakaan\app\Models\M_Model.php(74): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Administrator\Desktop\perpustakaan\app\Controllers\Home.php(182): App\Models\M_model->simpan('kategori', Array)
+#6 C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php(919): App\Controllers\Home->aksi_addkategori()
+#7 C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Desktop\perpustakaan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Desktop\perpustakaan\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2024-01-29 05:34:15 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(352): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:34:15 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(352): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:34:15 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(352): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:34:15 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(352): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+ERROR - 2024-01-29 05:38:55 --> mysqli_sql_exception: Table 'buku.siswa' doesn't exist in C:\Users\Administrator\Desktop\perpustakaan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Administrator\Desktop\perpustakaan\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `siswa` ...', 0)
+#1 C:\Users\Administrator\Desktop\perpustakaan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` ...')
+#2 C:\Users\Administrator\Desktop\perpustakaan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` ...')
+#3 C:\Users\Administrator\Desktop\perpustakaan\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` ...', Array, false)
+#4 C:\Users\Administrator\Desktop\perpustakaan\app\Models\M_Model.php(89): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\Users\Administrator\Desktop\perpustakaan\app\Controllers\Home.php(376): App\Models\M_model->qedit('siswa', Array, Array)
+#6 C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php(919): App\Controllers\Home->aksi_editsiswa()
+#7 C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Desktop\perpustakaan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Desktop\perpustakaan\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2024-01-29 05:39:54 --> Too few arguments to function App\Controllers\Home::aksi_editkategori(), 0 passed in C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 187.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_editkategori()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:42:12 --> Too few arguments to function App\Controllers\Home::aksi_editkategori(), 0 passed in C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 187.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_editkategori()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:42:46 --> Too few arguments to function App\Controllers\Home::aksi_editkategori(), 0 passed in C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 187.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_editkategori()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:43:29 --> Too few arguments to function App\Controllers\Home::aksi_editkategori(), 0 passed in C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 185.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_editkategori()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:43:39 --> Too few arguments to function App\Controllers\Home::aksi_editkategori(), 0 passed in C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 185.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_editkategori()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:43:52 --> Too few arguments to function App\Controllers\Home::aksi_editkategori(), 0 passed in C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 185.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_editkategori()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+ERROR - 2024-01-29 05:45:04 --> mysqli_sql_exception: Column 'nama_k' cannot be null in C:\Users\Administrator\Desktop\perpustakaan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Administrator\Desktop\perpustakaan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ka...', 0)
+#1 C:\Users\Administrator\Desktop\perpustakaan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 C:\Users\Administrator\Desktop\perpustakaan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 C:\Users\Administrator\Desktop\perpustakaan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 C:\Users\Administrator\Desktop\perpustakaan\app\Models\M_Model.php(74): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Administrator\Desktop\perpustakaan\app\Controllers\Home.php(211): App\Models\M_model->simpan('kategori', Array)
+#6 C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php(919): App\Controllers\Home->aksi_addkategori()
+#7 C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Desktop\perpustakaan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Desktop\perpustakaan\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2024-01-29 05:46:57 --> Too few arguments to function App\Controllers\Home::aksi_editkategori(), 0 passed in C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 185.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_editkategori()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:46:58 --> Too few arguments to function App\Controllers\Home::aksi_editkategori(), 0 passed in C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 185.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_editkategori()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:47:50 --> Too few arguments to function App\Controllers\Home::aksi_editkategori(), 0 passed in C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 185.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_editkategori()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 05:50:31 --> Too few arguments to function App\Controllers\Home::aksi_editkategori(), 0 passed in C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 185.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_editkategori()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:04:18 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:04:18 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:04:18 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:04:18 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:04:31 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:04:31 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:04:31 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:04:31 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:04:52 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:04:52 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:04:52 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:04:52 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:04:57 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:04:57 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:04:57 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:04:57 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:05:12 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:05:13 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:05:13 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:05:13 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:05:38 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:05:38 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:05:38 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:05:38 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:07:38 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:07:38 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:07:38 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:07:38 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:04 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:04 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:05 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:05 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:15 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:15 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:15 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:15 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:19 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:19 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:19 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:19 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:24 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:24 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:24 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:24 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:34 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:34 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:34 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:34 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:39 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:39 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:39 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:08:39 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(396): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:11:49 --> Invalid argument supplied for foreach()
+in APPPATH\Views\tabel_peminjaman.php on line 27.
+ 1 APPPATH\Views\tabel_peminjaman.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\Users\\Administrator\\Desktop\\perpustakaan\\app\\Views\\tabel_peminjaman.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Administrator\\Desktop\\perpustakaan\\app\\Views\\tabel_peminjaman.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tabel_peminjaman', [], true)
+ 5 APPPATH\Controllers\Home.php(228): view('tabel_peminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:16:25 --> Call to undefined method App\Models\M_model::getpeminjamanById
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Home.php(237): CodeIgniter\Model->__call('getpeminjamanById', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksipinjam('7')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:23:39 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(435): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:23:39 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(435): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:23:39 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(435): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:23:39 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(435): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:24:11 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(435): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:24:11 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(435): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:24:11 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(435): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+CRITICAL - 2024-01-29 06:24:11 --> Data not found
+in APPPATH\Models\M_Model.php on line 23.
+ 1 APPPATH\Controllers\Home.php(435): App\Models\M_model->getById('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->editbuku('images', 'avatar', '4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\perpustakaan\\public\\index.php')
+ERROR - 2024-01-29 07:04:03 --> mysqli_sql_exception: Column 'nama_k' cannot be null in C:\Users\Administrator\Desktop\perpustakaan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Administrator\Desktop\perpustakaan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ka...', 0)
+#1 C:\Users\Administrator\Desktop\perpustakaan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 C:\Users\Administrator\Desktop\perpustakaan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 C:\Users\Administrator\Desktop\perpustakaan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 C:\Users\Administrator\Desktop\perpustakaan\app\Models\M_Model.php(74): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Administrator\Desktop\perpustakaan\app\Controllers\Home.php(306): App\Models\M_model->simpan('kategori', Array)
+#6 C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php(919): App\Controllers\Home->aksi_addkategori()
+#7 C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\Administrator\Desktop\perpustakaan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Desktop\perpustakaan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Desktop\perpustakaan\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}

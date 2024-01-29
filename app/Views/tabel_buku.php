@@ -4,9 +4,9 @@
             <div class="col-lg-12">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Data Table Murid</h4>
+                        <h4 class="card-title">Data Table Buku</h4>
                         <button class="btn btn-primary mb-2" data-toggle="tooltip" data-placement="bottom"
-                            title="Add a new user" onclick="window.location.href='/home/tambahbuku'">Add Murid</button>
+                            title="Add a new book" onclick="window.location.href='/home/tambahbuku'">Add Buku</button>
                         <div class="table-responsive">
                             <table class="table table-striped table-bordered zero-configuration">
                             <thead>
@@ -40,9 +40,9 @@
                                        
                                         <td>
                                         
-                                        <a href="<?=base_url('/home/detail_buku/'.$b->id_book)?>"><button class="btn btn-warning">Baca Online</button></a>
-                                            <a href="<?=base_url('/book/edit/'.$b->id_book)?>"><button class="btn btn-primary">Edit</button></a>
-                                            <a href="<?=base_url('/book/delete/'.$b->id_book)?>"><button class="btn btn-danger">Delete</button></a>
+                                        <a href="<?=base_url('/home/detail_buku/'.$b->id_book)?>"><button class="btn btn-warning">Detail Buku</button></a>
+                                            <a href="<?=base_url('/home/editbuku/'.$b->id_book)?>"><button class="btn btn-primary">Edit</button></a>
+                                            <a href="<?=base_url('/home/delete/'.$b->id_book)?>"><button class="btn btn-danger">Delete</button></a>
                                         </td>
 
                                     </tr>
