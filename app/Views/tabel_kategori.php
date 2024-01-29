@@ -33,11 +33,13 @@
                                         <td>
 
                                             <a class="btn btn-warning"
-                                                href="<?php echo base_url('/home/editkategori/' . $k->id_kategori) ?>"><button
-                                                    class="btn btn-warning">Edit</button></a>
+                                                href="<?php echo base_url('/home/editkategori/' . $k->id_kategori) ?>">
+                                                Edit
+                                            </a>
                                             <a class="btn btn-danger"
-                                                href="<?php echo base_url('/home/deletekategori/' . $k->id_kategori) ?>"><button
-                                                    class="btn btn-danger">Delete</button></a>
+                                                href="<?php echo base_url('/home/deletekategori/' . $k->id_kategori) ?>">
+                                                Delete
+                                            </a>
                                         </td>
                                         <?php
                                 }

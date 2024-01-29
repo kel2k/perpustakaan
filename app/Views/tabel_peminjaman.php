@@ -50,20 +50,29 @@
                                         <td>
                                             <?php echo $k->status ?>
                                         </td>
-                                        <td>
-                                            <form method="post"
-                                                action="<?= base_url('/home/aksipinjam/' . $k->id_peminjaman) ?>">
-                                                <button class="btn btn-dark" type="submit"
-                                                    <?= ($k->status === 'Dikembalikan') ? 'disabled' : '' ?>>
-                                                    Update Status
-                                                </button>
-                                            </form>
-                                            <button class="btn btn-danger"
-                                                href="<?php echo base_url('/home/deletepeminjaman/' . $k->id_peminjaman) ?>"
-                                                <?= ($k->status === 'Dikembalikan') ? 'disabled' : '' ?>>
-                                               Delete
-                                            </button>
+                                        <style>
+                                            .button-container {
+                                                display: flex;
+                                                gap: 10px;
+                                                /* Sesuaikan nilai gap sesuai kebutuhan Anda */
+                                            }
+                                        </style>
 
+                                        <td>
+                                            <div class="button-container">
+                                                <form method="post"
+                                                    action="<?= base_url('/home/aksipinjam/' . $k->id_peminjaman) ?>">
+                                                    <button class="btn btn-dark" type="submit"
+                                                        <?= ($k->status === 'Dikembalikan') ? 'disabled' : '' ?>>
+                                                        Update Status
+                                                    </button>
+                                                </form>
+
+                                                <a class="btn btn-danger"
+                                                    href="<?php echo base_url('/home/deletepeminjaman/' . $k->id_peminjaman) ?>">
+                                                    Delete
+                                                </a>
+                                            </div>
                                         </td>
                                         <?php
                                 }

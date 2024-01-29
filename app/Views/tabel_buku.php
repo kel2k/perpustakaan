@@ -40,7 +40,10 @@
                                        
                                         <td>
                                         
-                                        <a href="<?=base_url('/home/detail_buku/'.$b->id_book)?>"><button class="btn btn-warning">Detail Buku</button></a>
+                                        <a href="<?= base_url('/home/detail_buku/' . (int)$b->id_book) ?>">
+   <button class="btn btn-warning">Detail Buku</button>
+</a>
+
                                             <a href="<?=base_url('/home/editbuku/'.$b->id_book)?>"><button class="btn btn-primary">Edit</button></a>
                                             <a href="<?=base_url('/home/delete/'.$b->id_book)?>"><button class="btn btn-danger">Delete</button></a>
                                         </td>

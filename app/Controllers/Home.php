@@ -3,7 +3,6 @@
 namespace App\Controllers;
 
 use App\Models\M_model;
-use Dompdf\Dompdf;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use Intervention\Image\ImageManagerStatic as Image;
@@ -573,5 +572,185 @@ class Home extends BaseController
         // //  print_r($data2);
         $model->qedit('staf', $data2, $where2);
         return redirect()->to('/home/siswa');
+    }
+    public function filterpeminjaman()
+    {
+        if (session()->get('level') == 1 || session()->get('level') == 2) {
+            $model = new M_model();
+            $data['kunci'] = 'print_in';
+            echo view('header');
+            echo view('menu');
+            echo view('filterpeminjaman', $data);
+            echo view('footer');
+        } else {
+            return redirect()->to('/login');
+        }
+    }
+    public function filterpengembalian()
+    {
+        if (session()->get('level') == 1 || session()->get('level') == 2) {
+            $model = new M_model();
+            $data['kunci'] = 'print_in';
+            echo view('header');
+            echo view('menu');
+            echo view('filterpengembalian', $data);
+            echo view('footer');
+        } else {
+            return redirect()->to('/login');
+        }
+    }
+    public function print_peminjaman()
+    {
+        if (session()->get('level') == 1 || session()->get('level') == 2) {
+            $model = new M_model();
+            $awal = $this->request->getPost('awal');
+            $akhir = $this->request->getPost('akhir');
+            $status = "Dipinjam";
+            $data['vstaf'] = $model->filter22('peminjaman', $awal, $akhir, $status);
+            echo view('laporan', $data);
+        } else {
+            return redirect()->to('/login');
+        }
+    }
+    public function pdf_peminjaman()
+    {
+
+        $model = new M_model();
+        $awal = $this->request->getPost('awal');
+        $akhir = $this->request->getPost('akhir');
+        $status = "Dipinjam";
+        $data['vstaf'] = $model->filter22('peminjaman', $awal, $akhir, $status);
+        $dompdf = new \Dompdf\Dompdf();
+        $dompdf->loadHtml(view('laporan', $data));
+        $dompdf->setPaper('A4', 'potrait');
+        $dompdf->render();
+        $dompdf->stream('my.pdf', array('Attachment' => 0));
+
+    }
+    public function excel_peminjaman()
+    {
+        if (session()->get('level') == 1 || session()->get('level') == 2 || session()->get('level') == 3 || session()->get('level') == 4) {
+            $model = new M_model();
+            $awal = $this->request->getPost('awal');
+            $akhir = $this->request->getPost('akhir');
+            $status = "Dipinjam";
+
+            $data = $model->filter22('peminjaman', $awal, $akhir, $status);
+
+
+            $spreadsheet = new Spreadsheet();
+
+            $spreadsheet->setActiveSheetIndex(0)
+                ->setCellValue('A1', 'Nama Peminjam')
+                ->setCellValue('B1', 'Nama Buku')
+                ->setCellValue('C1', 'Tanggal Pinjam')
+                ->setCellValue('D1', 'Tanggal Kembali')
+                ->setCellValue('E1', 'Jumlah')
+                ->setCellValue('F1', 'Status');
+            $column = 2;
+
+
+            foreach ($data as $data) {
+                $spreadsheet->setActiveSheetIndex(0)
+                    ->setCellValue('A' . $column, $data->nama)
+                    ->setCellValue('B' . $column, $data->nama_b)
+                    ->setCellValue('C' . $column, $data->tgl_pinjam)
+                    ->setCellValue('D' . $column, $data->tgl_kembali)
+                    ->setCellValue('E' . $column, $data->jumlah)
+                    ->setCellValue('F' . $column, $data->status);
+                $column++;
+            }
+
+
+            $writer = new XLsx($spreadsheet);
+            $fileName = 'Data Laporan Buku Dipinjam';
+
+
+            header('Content-type:vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+            header('Content-Disposition:attachment;filename=' . $fileName . '.xls');
+            header('Cache-Control: max-age=0');
+
+            $writer->save('php://output');
+        } else {
+            return redirect()->to('/login');
+        }
+    }
+    public function print_pengembalian()
+    {
+        if (session()->get('level') == 1 || session()->get('level') == 2) {
+            $model = new M_model();
+            $awal = $this->request->getPost('awal');
+            $akhir = $this->request->getPost('akhir');
+            $status = "Dikembalikan";
+            $data['vstaf'] = $model->filter222('peminjaman', $awal, $akhir, $status);
+            echo view('laporan', $data);
+        } else {
+            return redirect()->to('/login');
+        }
+    }
+    public function pdf_pengembalian()
+    {
+        if (session()->get('level') == 1 || session()->get('level') == 2 || session()->get('level') == 3 || session()->get('level') == 4) {
+            $model = new M_model();
+            $awal = $this->request->getPost('awal');
+            $akhir = $this->request->getPost('akhir');
+            $status = "Dikembalikan";
+            $data['vstaf'] = $model->filter222('peminjaman', $awal, $akhir, $status);
+            $dompdf = new \Dompdf\Dompdf();
+            $dompdf->loadHtml(view('laporan', $data));
+            $dompdf->setPaper('A4', 'potrait');
+            $dompdf->render();
+            $dompdf->stream('my.pdf', array('Attachment' => 0));
+        } else {
+            return redirect()->to('/login');
+        }
+    }
+    public function excel_pengembalian()
+    {
+        if (session()->get('level') == 1 || session()->get('level') == 2 || session()->get('level') == 3 || session()->get('level') == 4) {
+            $model = new M_model();
+            $awal = $this->request->getPost('awal');
+            $akhir = $this->request->getPost('akhir');
+            $status = "Dikembalikan";
+
+            $data = $model->filter222('peminjaman', $awal, $akhir, $status);
+
+
+            $spreadsheet = new Spreadsheet();
+
+            $spreadsheet->setActiveSheetIndex(0)
+                ->setCellValue('A1', 'Nama Peminjam')
+                ->setCellValue('B1', 'Nama Buku')
+                ->setCellValue('C1', 'Tanggal Pinjam')
+                ->setCellValue('D1', 'Tanggal Kembali')
+                ->setCellValue('E1', 'Jumlah')
+                ->setCellValue('F1', 'Status');
+            $column = 2;
+
+
+            foreach ($data as $data) {
+                $spreadsheet->setActiveSheetIndex(0)
+                    ->setCellValue('A' . $column, $data->nama)
+                    ->setCellValue('B' . $column, $data->nama_b)
+                    ->setCellValue('C' . $column, $data->tgl_pinjam)
+                    ->setCellValue('D' . $column, $data->tgl_kembali)
+                    ->setCellValue('E' . $column, $data->jumlah)
+                    ->setCellValue('F' . $column, $data->status);
+                $column++;
+            }
+
+
+            $writer = new XLsx($spreadsheet);
+            $fileName = 'Data Laporan Buku Dikembalikan';
+
+
+            header('Content-type:vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+            header('Content-Disposition:attachment;filename=' . $fileName . '.xls');
+            header('Cache-Control: max-age=0');
+
+            $writer->save('php://output');
+        } else {
+            return redirect()->to('/login');
+        }
     }
 }

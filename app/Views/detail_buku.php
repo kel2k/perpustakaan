@@ -1,5 +1,3 @@
-<!-- app/Views/book/detail.php -->
-
 <div id="main-content">
     <div class="page-heading">
         <div class="page-title">
@@ -42,7 +40,8 @@
                         <p><strong>Stok:</strong>
                             <?= $book['stok'] ?>
                         </p>
-                        <p><strong>Baca Online:</strong> <a href="<?= $book['link'] ?>" target="_blank">
+                        <p><strong>Baca Online:</strong> <a href="<?= base_url('/pdf/' . $book['link']) ?>"
+                                target="_blank">
                                 <?= $book['link'] ?>
                             </a></p>
                         <p><strong>Kategori:</strong>

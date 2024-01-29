@@ -276,6 +276,8 @@
                             <li><a href="/home/buku">Tabel Buku</a></li>
                             <li><a href="/home/kategori">Tabel Kategori</a></li>
                             <li><a href="/home/peminjaman">Tabel Peminjaman</a></li>
+                            <li><a href="/home/filterpeminjaman">Fillter Peminjaman</a></li>
+                            <li><a href="/home/filterpengembalian">Fillter Pengembalian</a></li>
                         </ul>
                     </li>
                     <!-- </ul>

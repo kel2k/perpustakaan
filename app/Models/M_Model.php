@@ -230,4 +230,26 @@ class M_model extends Model
     {
         return $this->db->table('user')->countAll();
     }
+    public function filter22($table, $awal, $akhir, $status)
+    {
+        return $this->db->query("
+        SELECT peminjaman.*, book.nama_b, user.nama as nama
+        FROM " . $table . "
+        INNER JOIN book ON peminjaman.id_book = book.id_book
+        INNER JOIN user ON peminjaman.id_user = user.id_user
+        WHERE peminjaman.tgl_pinjam BETWEEN '" . $awal . "' AND '" . $akhir . "'
+        AND peminjaman.status = '" . $status . "'
+    ")->getResult();
+    }
+    public function filter222($table, $awal, $akhir, $status)
+    {
+        return $this->db->query("
+        SELECT peminjaman.*, book.nama_b, user.nama as nama
+        FROM " . $table . "
+        INNER JOIN book ON peminjaman.id_book = book.id_book
+        INNER JOIN user ON peminjaman.id_user = user.id_user
+        WHERE peminjaman.tgl_kembali BETWEEN '" . $awal . "' AND '" . $akhir . "'
+        AND peminjaman.status = '" . $status . "'
+    ")->getResult();
+    }
 }
